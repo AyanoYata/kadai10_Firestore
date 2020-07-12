@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE62FC7324B18ACF000F09E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62FC7224B18ACF000F09E0 /* AppDelegate.swift */; };
+		CE62FC7524B18ACF000F09E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62FC7424B18ACF000F09E0 /* SceneDelegate.swift */; };
+		CE62FC7724B18ACF000F09E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE62FC7624B18ACF000F09E0 /* ViewController.swift */; };
+		CE62FC7A24B18ACF000F09E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62FC7824B18ACF000F09E0 /* Main.storyboard */; };
+		CE62FC7C24B18AD0000F09E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE62FC7B24B18AD0000F09E0 /* Assets.xcassets */; };
+		CE62FC7F24B18AD0000F09E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE62FC7D24B18AD0000F09E0 /* LaunchScreen.storyboard */; };
+		CEB74F6624B1D17E002AFAD2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEB74F6524B1D17E002AFAD2 /* GoogleService-Info.plist */; };
+		CEB74F6D24B1D8AD002AFAD2 /* Sentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB74F6C24B1D8AD002AFAD2 /* Sentence.swift */; };
+		CEB74F7224B36CD7002AFAD2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB74F7024B36CD7002AFAD2 /* LoginViewController.swift */; };
+		CEB74F7324B36CD7002AFAD2 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB74F7124B36CD7002AFAD2 /* LoginViewController.xib */; };
+		CEB74F7624B4335E002AFAD2 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = CEB74F7524B4335E002AFAD2 /* FacebookLogin */; };
+		CEB74F7F24B53BC5002AFAD2 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB74F7E24B53BC4002AFAD2 /* FBSDKLoginKit.framework */; };
+		CEB74F8024B53BC5002AFAD2 /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEB74F7E24B53BC4002AFAD2 /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEB74F8224B53BD2002AFAD2 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB74F8124B53BD1002AFAD2 /* FBSDKCoreKit.framework */; };
+		CEB74F8324B53BD2002AFAD2 /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CEB74F8124B53BD1002AFAD2 /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEB74F8724B5498D002AFAD2 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB74F8524B5498D002AFAD2 /* AddViewController.swift */; };
+		CEB74F8824B5498D002AFAD2 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB74F8624B5498D002AFAD2 /* AddViewController.xib */; };
+		CEB74F9124B6E9C8002AFAD2 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB74F8F24B6E9C8002AFAD2 /* TopViewController.swift */; };
+		CEB74F9224B6E9C8002AFAD2 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB74F9024B6E9C8002AFAD2 /* TopViewController.xib */; };
+		CEB74F9524B943AF002AFAD2 /* CustomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB74F9324B943AE002AFAD2 /* CustomeCell.swift */; };
+		CEB74F9624B943AF002AFAD2 /* CustomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB74F9424B943AE002AFAD2 /* CustomeCell.xib */; };
+		CEB74F9A24B94BB8002AFAD2 /* SenteceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB74F9824B94BB8002AFAD2 /* SenteceDetailViewController.swift */; };
+		CEB74F9B24B94BB8002AFAD2 /* SenteceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB74F9924B94BB8002AFAD2 /* SenteceDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEB74F7A24B45DE6002AFAD2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CEB74F8024B53BC5002AFAD2 /* FBSDKLoginKit.framework in Embed Frameworks */,
+				CEB74F8324B53BD2002AFAD2 /* FBSDKCoreKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0010313AAD3547137A928274 /* Pods-kadai10_Firestore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai10_Firestore.debug.xcconfig"; path = "Target Support Files/Pods-kadai10_Firestore/Pods-kadai10_Firestore.debug.xcconfig"; sourceTree = "<group>"; };
+		789AF3609EF72DE1405319C4 /* Pods-kadai10_Firestore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kadai10_Firestore.release.xcconfig"; path = "Target Support Files/Pods-kadai10_Firestore/Pods-kadai10_Firestore.release.xcconfig"; sourceTree = "<group>"; };
+		CE62FC6F24B18ACF000F09E0 /* kadai10_Firestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kadai10_Firestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE62FC7224B18ACF000F09E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE62FC7424B18ACF000F09E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE62FC7624B18ACF000F09E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE62FC7924B18ACF000F09E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE62FC7B24B18AD0000F09E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE62FC7E24B18AD0000F09E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE62FC8024B18AD0000F09E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB74F6524B1D17E002AFAD2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEB74F6C24B1D8AD002AFAD2 /* Sentence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentence.swift; sourceTree = "<group>"; };
+		CEB74F7024B36CD7002AFAD2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEB74F7124B36CD7002AFAD2 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CEB74F7E24B53BC4002AFAD2 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CEB74F8124B53BD1002AFAD2 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Carthage 2/Build/iOS/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CEB74F8524B5498D002AFAD2 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CEB74F8624B5498D002AFAD2 /* AddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		CEB74F8F24B6E9C8002AFAD2 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		CEB74F9024B6E9C8002AFAD2 /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		CEB74F9324B943AE002AFAD2 /* CustomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeCell.swift; sourceTree = "<group>"; };
+		CEB74F9424B943AE002AFAD2 /* CustomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomeCell.xib; sourceTree = "<group>"; };
+		CEB74F9824B94BB8002AFAD2 /* SenteceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenteceDetailViewController.swift; sourceTree = "<group>"; };
+		CEB74F9924B94BB8002AFAD2 /* SenteceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenteceDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE62FC6C24B18ACF000F09E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB74F7624B4335E002AFAD2 /* FacebookLogin in Frameworks */,
+				CEB74F8224B53BD2002AFAD2 /* FBSDKCoreKit.framework in Frameworks */,
+				CEB74F7F24B53BC5002AFAD2 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C0142D02AE98C93B938F1BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74F8124B53BD1002AFAD2 /* FBSDKCoreKit.framework */,
+				CEB74F7E24B53BC4002AFAD2 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C63EED680F272441D7396884 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0010313AAD3547137A928274 /* Pods-kadai10_Firestore.debug.xcconfig */,
+				789AF3609EF72DE1405319C4 /* Pods-kadai10_Firestore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE62FC6624B18ACF000F09E0 = {
+			isa = PBXGroup;
+			children = (
+				CEB74F9724B94B73002AFAD2 /* SentenceDetailViewContoroller */,
+				CEB74F8E24B6E9A5002AFAD2 /* TopView */,
+				CEB74F8424B54959002AFAD2 /* AddViewController */,
+				CEB74F6F24B36CA9002AFAD2 /* LoginView */,
+				CEB74F6E24B2A75E002AFAD2 /* SentenceListViewControllerView */,
+				CEB74F6724B1D4FB002AFAD2 /* Model */,
+				CE62FC7124B18ACF000F09E0 /* kadai10_Firestore */,
+				CE62FC7024B18ACF000F09E0 /* Products */,
+				C63EED680F272441D7396884 /* Pods */,
+				6C0142D02AE98C93B938F1BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE62FC7024B18ACF000F09E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE62FC6F24B18ACF000F09E0 /* kadai10_Firestore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE62FC7124B18ACF000F09E0 /* kadai10_Firestore */ = {
+			isa = PBXGroup;
+			children = (
+				CE62FC7224B18ACF000F09E0 /* AppDelegate.swift */,
+				CE62FC7424B18ACF000F09E0 /* SceneDelegate.swift */,
+				CE62FC7B24B18AD0000F09E0 /* Assets.xcassets */,
+				CE62FC7D24B18AD0000F09E0 /* LaunchScreen.storyboard */,
+				CE62FC8024B18AD0000F09E0 /* Info.plist */,
+				CEB74F6524B1D17E002AFAD2 /* GoogleService-Info.plist */,
+			);
+			path = kadai10_Firestore;
+			sourceTree = "<group>";
+		};
+		CEB74F6724B1D4FB002AFAD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74F6C24B1D8AD002AFAD2 /* Sentence.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEB74F6E24B2A75E002AFAD2 /* SentenceListViewControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				CE62FC7824B18ACF000F09E0 /* Main.storyboard */,
+				CE62FC7624B18ACF000F09E0 /* ViewController.swift */,
+				CEB74F9324B943AE002AFAD2 /* CustomeCell.swift */,
+				CEB74F9424B943AE002AFAD2 /* CustomeCell.xib */,
+			);
+			path = SentenceListViewControllerView;
+			sourceTree = "<group>";
+		};
+		CEB74F6F24B36CA9002AFAD2 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74F7024B36CD7002AFAD2 /* LoginViewController.swift */,
+				CEB74F7124B36CD7002AFAD2 /* LoginViewController.xib */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		CEB74F8424B54959002AFAD2 /* AddViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74F8524B5498D002AFAD2 /* AddViewController.swift */,
+				CEB74F8624B5498D002AFAD2 /* AddViewController.xib */,
+			);
+			path = AddViewController;
+			sourceTree = "<group>";
+		};
+		CEB74F8E24B6E9A5002AFAD2 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74F8F24B6E9C8002AFAD2 /* TopViewController.swift */,
+				CEB74F9024B6E9C8002AFAD2 /* TopViewController.xib */,
+			);
+			path = TopView;
+			sourceTree = "<group>";
+		};
+		CEB74F9724B94B73002AFAD2 /* SentenceDetailViewContoroller */ = {
+			isa = PBXGroup;
+			children = (
+				CEB74F9824B94BB8002AFAD2 /* SenteceDetailViewController.swift */,
+				CEB74F9924B94BB8002AFAD2 /* SenteceDetailViewController.xib */,
+			);
+			path = SentenceDetailViewContoroller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE62FC6E24B18ACF000F09E0 /* kadai10_Firestore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE62FC8324B18AD0000F09E0 /* Build configuration list for PBXNativeTarget "kadai10_Firestore" */;
+			buildPhases = (
+				B80E499772D2031E2806D749 /* [CP] Check Pods Manifest.lock */,
+				CE62FC6B24B18ACF000F09E0 /* Sources */,
+				CE62FC6C24B18ACF000F09E0 /* Frameworks */,
+				CE62FC6D24B18ACF000F09E0 /* Resources */,
+				175012FDD0F29BA6DC038A01 /* [CP] Embed Pods Frameworks */,
+				CEB74F7A24B45DE6002AFAD2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kadai10_Firestore;
+			packageProductDependencies = (
+				CEB74F7524B4335E002AFAD2 /* FacebookLogin */,
+			);
+			productName = kadai10_Firestore;
+			productReference = CE62FC6F24B18ACF000F09E0 /* kadai10_Firestore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE62FC6724B18ACF000F09E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ayano Yata_kadai10_Firestore";
+				TargetAttributes = {
+					CE62FC6E24B18ACF000F09E0 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = CE62FC6A24B18ACF000F09E0 /* Build configuration list for PBXProject "kadai10_Firestore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE62FC6624B18ACF000F09E0;
+			packageReferences = (
+				CEB74F7424B4335E002AFAD2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = CE62FC7024B18ACF000F09E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE62FC6E24B18ACF000F09E0 /* kadai10_Firestore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE62FC6D24B18ACF000F09E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB74F9624B943AF002AFAD2 /* CustomeCell.xib in Resources */,
+				CEB74F8824B5498D002AFAD2 /* AddViewController.xib in Resources */,
+				CEB74F7324B36CD7002AFAD2 /* LoginViewController.xib in Resources */,
+				CEB74F9224B6E9C8002AFAD2 /* TopViewController.xib in Resources */,
+				CE62FC7F24B18AD0000F09E0 /* LaunchScreen.storyboard in Resources */,
+				CEB74F6624B1D17E002AFAD2 /* GoogleService-Info.plist in Resources */,
+				CE62FC7C24B18AD0000F09E0 /* Assets.xcassets in Resources */,
+				CE62FC7A24B18ACF000F09E0 /* Main.storyboard in Resources */,
+				CEB74F9B24B94BB8002AFAD2 /* SenteceDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		175012FDD0F29BA6DC038A01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai10_Firestore/Pods-kadai10_Firestore-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kadai10_Firestore/Pods-kadai10_Firestore-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kadai10_Firestore/Pods-kadai10_Firestore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B80E499772D2031E2806D749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kadai10_Firestore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE62FC6B24B18ACF000F09E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB74F9A24B94BB8002AFAD2 /* SenteceDetailViewController.swift in Sources */,
+				CE62FC7724B18ACF000F09E0 /* ViewController.swift in Sources */,
+				CE62FC7324B18ACF000F09E0 /* AppDelegate.swift in Sources */,
+				CEB74F8724B5498D002AFAD2 /* AddViewController.swift in Sources */,
+				CEB74F6D24B1D8AD002AFAD2 /* Sentence.swift in Sources */,
+				CEB74F9524B943AF002AFAD2 /* CustomeCell.swift in Sources */,
+				CEB74F7224B36CD7002AFAD2 /* LoginViewController.swift in Sources */,
+				CE62FC7524B18ACF000F09E0 /* SceneDelegate.swift in Sources */,
+				CEB74F9124B6E9C8002AFAD2 /* TopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE62FC7824B18ACF000F09E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE62FC7924B18ACF000F09E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE62FC7D24B18AD0000F09E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE62FC7E24B18AD0000F09E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE62FC8124B18AD0000F09E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE62FC8224B18AD0000F09E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE62FC8424B18AD0000F09E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0010313AAD3547137A928274 /* Pods-kadai10_Firestore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 388DH3R55T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"~/Documents/FacebookSDK",
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+				);
+				INFOPLIST_FILE = kadai10_Firestore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "AyanoYata-kadai10Firestore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE62FC8524B18AD0000F09E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 789AF3609EF72DE1405319C4 /* Pods-kadai10_Firestore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 388DH3R55T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestoreSwift\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"~/Documents/FacebookSDK",
+				);
+				INFOPLIST_FILE = kadai10_Firestore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "AyanoYata-kadai10Firestore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE62FC6A24B18ACF000F09E0 /* Build configuration list for PBXProject "kadai10_Firestore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE62FC8124B18AD0000F09E0 /* Debug */,
+				CE62FC8224B18AD0000F09E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE62FC8324B18AD0000F09E0 /* Build configuration list for PBXNativeTarget "kadai10_Firestore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE62FC8424B18AD0000F09E0 /* Debug */,
+				CE62FC8524B18AD0000F09E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEB74F7424B4335E002AFAD2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEB74F7524B4335E002AFAD2 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEB74F7424B4335E002AFAD2 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE62FC6724B18ACF000F09E0 /* Project object */;
+}
